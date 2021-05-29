@@ -54,7 +54,7 @@ export const Dashboard: React.FC = () => {
       const response = await api.get<Repository>(`repos/${newRepo}`);
       const repository = response.data;
 
-      setRepositories(prevRepositories => [...prevRepositories, repository]);
+      setRepositories(prevRepositories => [repository, ...prevRepositories]);
       setNewRepo('');
       setInputError('');
     } catch (err) {
