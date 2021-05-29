@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Github Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto relâmpago para a construção de uma plataforma onde podemos procurar repositórios do Github através de buscas na API oficial e, a partir disso, entrar na página de cada repositório a fim de ver todas suas issues e estatísticas convenientes.
 
 ## Available Scripts
 
